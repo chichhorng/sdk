@@ -1,0 +1,291 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+input,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+svg,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1em;
+    overflow-x: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+    cursor: pointer !important
+}
+
+a:link {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+a:visited {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    outline: none !important;
+    text-decoration: none !important;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+
+a:active {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+a:focus {
+    outline: none !important;
+    outline-offset: 0;
+}
+
+.ulli {
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: none;
+    list-style: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif !important;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt35 {
+    margin-top: 35px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*mertcan*/
+
+.urunyazi table {
+    width: 100% !important;
+}
+
+.urunyazi thead {
+    background: #0152a4;
+    color: #fff;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+.urunyazi thead td {
+    padding: 20px 0px;
+}
+
+.urunyazi td,
+.urunyazi th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.urunyazi thead {
+    font-weight: 700;
+}
+
+.urunyazi td:first-child {
+    font-weight: 700;
+}
+
+
+/* .urunyazi table tr:nth-child(even){background-color: #f2f2f2;} */
+
+.urunyazi table tbody tr:hover {
+    background-color: #f9f2f2;
+}
+
+.urunyazi th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
