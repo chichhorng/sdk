@@ -59,7 +59,7 @@
         width: 100%;
         z-index: 99;
         height: 141px;
-        background: #fc2221;
+        background: rgb(255, 199, 0);
     }
     .fixed-header {
         position: fixed;
@@ -180,7 +180,7 @@
         float: left;
         height: 35px;
         font-size: 16px;
-        color: #fff;
+        color: #000;
         font-weight: 400;
         display: flex;
         align-items: center;
@@ -189,6 +189,7 @@
     .bilgiler a img {
         float: left;
         margin-right: 10px;
+        filter: invert(1) brightness(0); /* Turn white icons to black */
     }
     .doktora {
         float: right;
@@ -333,7 +334,7 @@
         margin-right: 0px !important;
     }
     .slideraltibilgi:hover {
-        background-color: #e93838;
+        background-color: rgb(255, 199, 0);
     }
     .slideraltibilgi img {
         float: left;
@@ -374,7 +375,7 @@
         width: 90%;
         font-size: 42px;
         font-weight: 800;
-        color: #e93838;
+        color: #000;
         line-height: normal;
         margin-bottom: 10px;
     }
@@ -383,7 +384,7 @@
         width: 95%;
         font-size: 18px;
         font-weight: 500;
-        color: #e93838;
+        color: #382f2f;
         line-height: 24px;
     }
     .hakyazi span {
@@ -391,7 +392,7 @@
         width: 100%;
         font-size: 15px;
         font-weight: 400;
-        color: #838392;
+        color: #382f2f;
         margin-top: 25px;
         line-height: 24px;
         height: 308px;
@@ -401,7 +402,7 @@
         float: left;
         width: 185px;
         height: 43px;
-        background-color: #e93838;
+        background-color: #262828;
         border-radius: 7px;
         font-size: 16px;
         font-weight: 500;
@@ -473,7 +474,7 @@
         line-height: normal;
         font-size: 42px;
         font-weight: 800;
-        color: #e93838;
+        color: #262828;
     }
     .anabaslik span {
         float: left;
@@ -482,7 +483,7 @@
         line-height: 24px;
         font-size: 18px;
         font-weight: 500;
-        color: #e93838;
+        color: #262828;
         margin-top: 15px;
     }
     .icerik {
@@ -835,7 +836,7 @@
     .hizmetlerimiz a .hizmetbuton {
         float: left;
         padding: 30px 54px 30px 38px;
-        background-color: #e93838;
+        background-color: rgb(255, 199, 0);
         font-size: 16px;
         font-weight: 400;
         color: #fff;
@@ -1357,7 +1358,7 @@
         line-height: normal;
         font-size: 20px;
         font-weight: 800;
-        color: #e93838;
+        color: #262828;
     }
     .anabaslik span {
         float: left;
@@ -1366,7 +1367,7 @@
         line-height: 24px;
         font-size: 13px;
         font-weight: 500;
-        color: #e93838;
+        color: #262828;
         margin-top: 10px;
     }
     .hizmetarkaplan {
