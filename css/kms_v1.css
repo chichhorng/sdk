@@ -961,6 +961,9 @@
     .fotermail img {
         margin-top: 10px;
     }
+    .fotermail p a {
+        text-transform: none;
+    }    
     .footersol img {
         float: left;
         width: 100%;
